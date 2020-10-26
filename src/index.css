@@ -1,3 +1,4 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +12,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-blocks {
+  margin-top: 40px;
+}
+
+.hide {
+  display: none;
+}
+
+.open {
+  opacity: 1;
+}
+
+.switch-block {
+  display: flex;
+}
+.switch-block p {
+  margin: 0 5px 0 0;
+}
+.cost-btn {
+  margin-right: 20px;
+}
+.cost-btn, .metric-btn {
+  cursor: pointer;
+}
+svg {
+  margin: 0 5px;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  border-color: #5e9969;
+  background-color: #5e9969;
+}
+.custom-control-label::before {
+  background-color: #5e9969
+}
+.custom-switch .custom-control-label::after {
+  background-color: #fff;
+}
+
+
+
